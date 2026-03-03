@@ -16,3 +16,17 @@ cin >> l;
 float jumlah(float a, float b, float c){
     return a + b + c; 
 }
+
+int luaspersegip(int a, int b){
+ return a * b;   
+}
+void output (){
+    cout << "hasilnya = " << luaspersegip(p, l) << endl;
+    cout << "terima kasih" << endl;
+}
+
+int main(){//mulai
+    input();
+    output();
+    cout << "hasil penjualan " << jumlah(15.1, 24.9, 67);
+}//selesai
